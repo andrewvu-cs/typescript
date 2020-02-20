@@ -7,3 +7,4 @@ const sum = (a: number, b: number) => {
 const answer : number = sum(4, 5);
 
 console.log(answer);
+
