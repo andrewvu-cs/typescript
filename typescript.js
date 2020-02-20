@@ -26,5 +26,27 @@ var Size;
     Size[Size["Medium"] = 2] = "Medium";
     Size[Size["Large"] = 3] = "Large";
 })(Size || (Size = {}));
-;
 var sizeName = Size.Small;
+// Any - !!!!!!! Be Careful
+var whatever = "aghhhhhhh nooooooooooo!!!";
+whatever = basket;
+// void
+var sing = function () {
+    console.log("lalalallaalala");
+    return "lala";
+};
+// never
+// tests a function if it ever returns something
+// a function that doesn't have an end or usually throws an error
+var error = function () {
+    throw Error("ooooops");
+};
+var fightRobotArmy = function (robots) {
+    console.log("FIGHT");
+};
+fightRobotArmy({ count: 1, type: "dragon" });
+var fightRobotArmy2 = function (robots) {
+    console.log("FIGHT");
+};
+var dog = {};
+dog.count;
