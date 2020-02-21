@@ -115,3 +115,10 @@ let fightRobotArmy4 = (robots: {
 
   let lion = new Animal('RAAWWR');
   lion.sing;
+
+  // Union
+  let confused: string | number | boolean = true
+
+
+  let x = 4;
+  x = "hello"
